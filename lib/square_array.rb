@@ -1,7 +1,9 @@
 def square_array (array)
   new_array = []
-  array.length.Times { |index|
-    new_array << array[index]**
-  }
+  counter = 0
+  while array[counter] do
+    new_array.push(array[counter]**)
+    counter +=
+  end 
   new_array
 end
